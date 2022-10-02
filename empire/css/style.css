@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#offcanvas-li > li a {
+   border: 2px solid #fff;
+   margin-bottom: 5px;
+}
+li a:hover {
+  border: 2px solid #ffbf00 !important;
+  font-weight: 500;
+}
+
+.offcanvas {
+  background-color: #ffbf00;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+#socials {
+  text-align: center;
+  margin: 5px;
+  display: block;
+}
+
+#socials li {
+  display: block;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+
+#socials li a {
+  padding: 15px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+}
+
+#socials li a:focus,
+#socials li a:hover,
+#socials li a:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
+
+}
+/* #socials li a .fa-facebook:hover {
+  border: 2px solid #3b5998;
+  background-color: transparent;
+} */
